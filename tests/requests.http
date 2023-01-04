@@ -1,0 +1,14 @@
+### Get Metadata in HTML
+GET {{endpoint}}/
+
+> check-response-from-envoy.js
+
+### Get some meta about the containers in the service in json
+GET {{endpoint}}/meta
+
+> check-response-from-envoy.js
+
+### Get the headers received the by service
+GET {{endpoint}}/headers
+
+> check-response-from-envoy.js
