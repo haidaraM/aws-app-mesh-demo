@@ -8,7 +8,7 @@ associated with my series of posts regarding App Mesh:
 - Part 2: Two services in the mesh communicating with each other with end-to-end encryption (coming soon) 
 
 You can find the full article on my blog here (in
-French): https://blog.haidara.io/aws-app-mesh-partie-1-terminaison-tls.
+French): https://blog.haidara.io/post/aws-app-mesh-partie-1-terminaison-tls/
 
 ## Repository structure
 
@@ -16,11 +16,9 @@ French): https://blog.haidara.io/aws-app-mesh-partie-1-terminaison-tls.
 .
 ├── app/ # The source code of the application
 ├── modules/
-│   ├── common/ # Common resources between  
-│   └── ecs-meshed-service/
-├── part-1
-├── part-2
-└── tests
-
+│   ├── common/ # Common resources between the different stacks
+│   └── ecs-meshed-service/ # A meshed ECS service
+├── part-1/
+└── tests/
 ```
 

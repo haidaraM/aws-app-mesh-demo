@@ -12,7 +12,7 @@ resource "aws_service_discovery_service" "service_discovery" {
   dns_config {
     namespace_id   = var.service_discovery_namespace_id
     routing_policy = "MULTIVALUE"
-    # TODO: check these parameters later
+    # TODO: check the impact of these parameters later
     dns_records {
       ttl  = 60
       type = "A"
