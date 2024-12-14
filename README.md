@@ -7,8 +7,10 @@ associated with my series of posts regarding App Mesh:
   encryption)
 - ~~Part 2: Two services in the mesh communicating with each other with end-to-end encryption (coming soon)~~
 
-> [!CAUTION]  
+> [!WARNING]  
 > I initially wanted to write a second part of this series, but [App Mesh is deprecated.](https://aws.amazon.com/fr/blogs/containers/migrating-from-aws-app-mesh-to-amazon-ecs-service-connect/)
+> So there won't be a second part. I will write a post about the migration from App Mesh to ECS Service Connect.
+
 
 You can find the full article on my blog here (in
 French): https://blog.haidara.io/post/aws-app-mesh-partie-1-terminaison-tls/
