@@ -5,7 +5,10 @@ associated with my series of posts regarding App Mesh:
 
 - [Part 1](./part-1): A single ECS service inside a Mesh and behind a load balancer connected to it via TLS (end-to-end
   encryption)
-- Part 2: Two services in the mesh communicating with each other with end-to-end encryption (coming soon) 
+- ~~Part 2: Two services in the mesh communicating with each other with end-to-end encryption (coming soon)~~
+
+> [!CAUTION]  
+> I initially wanted to write a second part of this series, but [App Mesh is deprecated.](https://aws.amazon.com/fr/blogs/containers/migrating-from-aws-app-mesh-to-amazon-ecs-service-connect/)
 
 You can find the full article on my blog here (in
 French): https://blog.haidara.io/post/aws-app-mesh-partie-1-terminaison-tls/
